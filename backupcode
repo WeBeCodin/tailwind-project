@@ -1,92 +1,1339 @@
-<!--carousel starts here-->
-      
-          <div class="w-full bg-accent-content carousel">
-            <div id="item1" class="w-full pt-20 carousel-item">
-                <div class="min-h-screen hero bg-secondary-content">
-                    <div class="flex-col hero-content lg:flex-row-reverse">
-                      <img src="images/plumberph.jpg" class="max-w-sm rounded-lg shadow-2xl"> 
-                      <div>
-                        <h1 class="mb-5 text-5xl font-bold">
-                              Fixermaster
-                            </h1> 
-                        <p class="mb-5 text-xs text-justify md:text-lg">
-                          Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.<br> Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.<br> Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
-                            </p> 
-                        <button class="btn btn-primary border-primary-content text-neutral-content bg-accent-focus hover:text-accent-focus hover:bg-neutral-content">Get Started</button>
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@1.16.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+  <script src="third-party/jquery-1.12.4.js"></script>
+  <script src="third-party/jquery-ui-1.12.1.js"></script>
+  <script src="master.js"></script>
+  <!-- ... -->
+</head>
+<html data-theme="luxury">
+
+</html>
+
+<body class="bg-secondary-content text-neutral">
+
+  <!--This is where the navbar starts-->
+  <div class="mb-2 rounded-b shadow-lg bg-base-100 navbar text-neutral-content">
+    <div class="flex-none px-2 mx-2">
+      <div class="avatar">
+        <div class="w-24 h-24 mt-2 mb-2 rounded-box ring ring-neutral ring-offset-base-100 ring-offset-2 bg-primary">
+          <svg class="w-16 h-24 mb-2 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 182.66 204.18">
+            <defs>
+              <style>
+                .cls-1,
+                .cls-2 {
+                  fill: #231f20;
+                }
+
+                .cls-2 {
+                  stroke: #231f20;
+                  stroke-miterlimit: 10;
+                }
+              </style>
+            </defs>
+            <g id="Layer_2" data-name="Layer 2">
+              <g id="Layer_1-2" data-name="Layer 1">
+                <path class="cls-1"
+                  d="M7.24,15q75,.27,149.92.18c9.65,0,9.66-15,0-15Q82.21.18,7.24,0c-9.65,0-9.66,15,0,15Z" />
+                <path class="cls-1" d="M65.66,196.68v-153c0-9.65-15-9.67-15,0v153c0,9.65,15,9.67,15,0Z" />
+                <path class="cls-1" d="M58.16,51.18H99.05c9.65,0,9.67-15,0-15H58.16c-9.66,0-9.67,15,0,15Z" />
+                <path class="cls-1" d="M149.66,7.68v72c0,9.65,15,9.67,15,0v-72c0-9.65-15-9.67-15,0Z" />
+                <path class="cls-1" d="M175.16,99.18h-81c-9.66,0-9.67,15,0,15h81c9.65,0,9.66-15,0-15Z" />
+                <rect class="cls-2" x="85.16" y="61.68" width="36" height="18" />
+                <rect class="cls-2" x="85.16" y="133.68" width="36" height="18" />
+                <path class="cls-1" d="M58.16,204.18h117c9.65,0,9.66-15,0-15h-117c-9.66,0-9.67,15,0,15Z" />
+                <path class="cls-1" d="M167.66,106.68v90c0,9.65,15,9.67,15,0v-90c0-9.65-15-9.67-15,0Z" />
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="flex-1 px-2 mx-2">
+      <div class="items-stretch lg:flex">
+        <a href="#slide1" class="btn btn-ghost btn-sm rounded-btn">
+          Home
+        </a>
+        <!--<a class="btn btn-ghost btn-sm rounded-btn">
+                    Affiliations
+                  </a>-->
+        <div class="dropdown">
+          <div tabindex="0" class="btn btn-ghost btn-sm rounded-btn">Affiliations</div>
+          <ul tabindex="0" class="p-2 shadow menu dropdown-content bg-base-100 rounded-box w-52">
+            <li>
+              <a>GSM-102-Export Credit Guarantee Program</a>
+            </li>
+            <li>
+              <a>SAM-System Award Management</a>
+            </li>
+            <li>
+              <a>FDA Food Facility</a>
+            </li>
+            <li>
+              <a>Notary Public of Georgia</a>
+            </li>
+          </ul>
+        </div>
+        <!--<a class="btn btn-ghost btn-sm rounded-btn">
+                    Our Services
+                  </a>-->
+        <div class="dropdown">
+          <div tabindex="0" class="btn btn-ghost btn-sm rounded-btn">Our Services</div>
+          <ul tabindex="0" class="p-2 shadow menu dropdown-content bg-base-100 rounded-box w-52">
+            <li>
+              <a href="#slideA">Defense</a>
+            </li>
+            <li>
+              <a href="#slideB">Food&Beverage</a>
+            </li>
+            <li>
+              <a href="#slideC">General Trade</a>
+            </li>
+          </ul>
+        </div>
+
+        <a href="#modal1" class="btn btn-ghost btn-sm rounded-btn">
+          Contact
+        </a>
+      </div>
+    </div>
+    <!--<div class="flex-none">
+          <button class="btn btn-square btn-ghost">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">              
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>            
+            </svg>
+          </button>
+        </div> 
+        <div class="flex-none">
+          <button class="btn btn-square btn-ghost">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">             
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>             
+            </svg>
+          </button>
+        </div>-->
+  </div>
+
+
+  <!--Modals-->
+
+  <div id="modal1" class="h-full modal sm:min-w-full lg:flex-row-reverse">
+    <div
+      class="fixed top-0 left-0 items-center justify-center h-full glass modal-box sm:min-w-full lg:flex-row-reverse">
+
+      <h1 class="mb-5 text-5xl font-bold">
+        Bozeman Global
+      </h1>
+      <p class="mb-5 text-xs text-justify text-accent-focus md:text-lg">
+        About Us<br><br><br>Bozeman Global Ltd was incorporated in 2015 with its headquarters in Atlanta, Georgia USA,
+        also having global footprints in Dubai, Indonesia, and Morocco as a globally established independent and fully
+        integrated international trading company, operating in the following sectors Real Estate , Defense, Importers &
+        Exporters of Food and Beverage, Logistics and General Trade. <br><br> Our group of companies provides an
+        extensive range of different products and services to our customers which includes wholesale food and beverage
+        products, tactical items; from our own branded firearms, ammunition-accessories, catering/bakery services,
+        construction, home renovation/maintenance, logistics/shipping & IT services, furniture, biodegradable bags plus
+        other consumer goods. <br><br> Due to the teams extensive knowledge of the USA, East Asia and MENA(Middle East &
+        North Africa) we have us established long term partnerships and agreements with renowned international
+        manufacturers, companies and a wide array of brands. In addition there are different affiliations and
+        memberships in place with the USA government, for example “GSM-102 member” which offer excellent financing
+        assistance for our international clients. <br><br>At Bozeman Global Ltd Co we are passionate about offering
+        customer service and quality in a day-and age where it is often overlooked. Consistent striving ensures the
+        fulfillment of top rated services and goods that we hope influence lives in a positive manner, guaranteed! It is
+        essential that these products become a part of the end-user’s everyday life. After many years of developing a
+        successful company and brand name, Bozeman Global Ltd Co is now recognised as multi- dimensioned and diverse
+        company.<br><br><br>Contact<br><br>
+
+        6060 Dawson Blvd Suite B<br>
+
+        Norcross, Georgia 30093 USA<br>
+
+        O: +1 404 836 3837<br>
+
+        E: info@bozglobal.us
+      </p>
+      <div class="modal-action">
+        <a href="#slide1" class="btn">Back</a>
+      </div>
+    </div>
+  </div>
+  <!--NEW MODALS START HERE-->
+  <div id="modalA" class="modal overflow-auto block">
+    <div class="min-h-full grid gap-4 glass lg:grid-cols-4 grid-rows-2">
+      <div class="shadow-lg card">
+        <div class="card-body">
+          <a href="#slideA" class="-mt-6 btn btn-circle btn-xs">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+              class="inline-block w-4 h-4 stroke-current">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </a>
+          <h2 class="card-title">Taurus Firearms</h2>
+          <figure class="p-4">
+            <img src="images/Tauruslogo.jpg" class="rounded-lg shadow-lg">
+          </figure>
+        </div>
+      </div>
+      <div class="shadow-lg card">
+        <div class="card-body">
+          <h2 class="card-title">Caracal Firearms USA</h2>
+          <figure class="p-4">
+            <img src="images/CaracalLogo.jpg" class="rounded-lg shadow-lg">
+          </figure>
+        </div>
+      </div>
+      <div class="shadow-lg card">
+        <div class="card-body">
+          <h2 class="card-title">Hard Shell</h2>
+          <figure class="p-4">
+            <img src="images/HardShellLogo.jpg" class="rounded-lg shadow-lg">
+          </figure>
+        </div>
+      </div>
+      <div class="shadow-lg card">
+        <div class="card-body">
+          <h2 class="card-title">Benelli</h2>
+          <figure class="p-4">
+            <img src="images/Benellilogo.jpg" class="rounded-lg shadow-lg">
+          </figure>
+        </div>
+      </div>
+      <div class="shadow-lg card">
+        <div class="card-body">
+          <h2 class="card-title">Ruger</h2>
+          <figure class="p-4">
+            <img src="images/Rugerlogo.jpg" class="rounded-lg shadow-lg">
+          </figure>
+        </div>
+      </div>
+      <div class="shadow-lg card">
+        <div class="card-body">
+          <h2 class="card-title">XL Arms</h2>
+          <figure class="p-4">
+            <img src="images/XLarmslogo.jpg" class="rounded-lg shadow-lg">
+          </figure>
+        </div>
+      </div>
+      <div class="shadow-lg card">
+        <div class="card-body">
+          <h2 class="card-title">Glock</h2>
+          <figure class="p-4">
+            <img src="images/Glocklogo.jpg" class="rounded-lg shadow-lg">
+          </figure>
+        </div>
+      </div>
+      <div class="shadow-lg card">
+        <div class="card-body">
+          <h2 class="card-title">Springfield Armory</h2>
+          <figure class="p-4">
+            <img src="images/SFAlogo.jpeg" class="rounded-lg shadow-lg">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="modalB" class="modal overflow-auto block">
+    <div class="min-h-full grid gap-4 glass lg:grid-cols-3 grid-rows-5">
+      <div class="shadow-lg card">
+        <div class="card-body">
+          <a href="#slideB" class="-mt-6 btn btn-circle btn-xs">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+              class="inline-block w-4 h-4 stroke-current">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </a>
+          <h2 class="card-title">Tillamook Dairy</h2>
+          <figure class="p-4">
+            <img src="images/TillamookLogo.JPG" class="rounded-lg shadow-lg">
+            <br>
+            <p class="font-semibold text-accent-focus">
+              Farmer-owned since forever. Doing Things Right Since Always.</p>
+          </figure>
+
+        </div>
+      </div>
+      <div class="shadow-lg card">
+        <div class="card-body">
+          <h2 class="card-title">Beyond Meat</h2>
+          <figure class="p-4">
+            <img src="images/BeyondLogo.jpg" class="rounded-lg shadow-lg">
+            <br>
+            <p class="font-semibold text-accent-focus">
+              Beyond Meat is plant-based, vegan meat that's tasty & better for you and for our planet.</p>
+          </figure>
+        </div>
+      </div>
+      <div class="shadow-lg card">
+        <div class="card-body">
+          <h2 class="card-title">Keurig DrPepper</h2>
+          <figure class="p-4">
+            <img src="images/KeurigLogo.jpg" class="rounded-lg shadow-lg">
+            <br>
+            <p class="font-semibold text-accent-focus">
+              Keurig Dr. Pepper is a leading producer and distributer of hot and cold beverages to satisfy every
+              consumer need, anytime
+              and anywhere.</p>
+          </figure>
+        </div>
+      </div>
+      <div class="shadow-lg card">
+        <div class="card-body">
+          <h2 class="card-title">Land O Lakes Foodservice</h2>
+          <figure class="p-4">
+            <img src="images/LOLlogo.JPG" class="rounded-lg shadow-lg">
+            <br>
+            <p class="font-semibold text-accent-focus">
+              Leader in Quality Dairy Products. We're devoted to providing foodservice professionals with quality dairy
+              products that
+              enhance their recipes.</p>
+          </figure>
+        </div>
+      </div>
+      <div class="shadow-lg card">
+        <div class="card-body">
+          <h2 class="card-title">Hershey Foodservice</h2>
+          <figure class="p-4">
+            <img src="images/HersheyLogo.jpg" class="rounded-lg shadow-lg">
+            <br>
+            <p class="font-semibold text-accent-focus">
+              Delivers goodness to commercial kitchens and operations from our world renowned brands including Reeses,
+              Hersheys, Kit
+              Kat just to name a few.</p>
+          </figure>
+        </div>
+      </div>
+      <div class="shadow-lg card">
+        <div class="card-body">
+          <h2 class="card-title">La Brea Bakery</h2>
+          <figure class="p-4">
+            <img src="images/LaBeraLogo.jpg" class="rounded-lg shadow-lg">
+            <br>
+            <p class="font-semibold text-accent-focus">
+              Fresh, artisan bread loaves are known for how delicious and comforting they are, but these breads can also
+              carry
+              important health benefits.</p>
+          </figure>
+        </div>
+      </div>
+      <div class="shadow-lg card">
+        <div class="card-body">
+          <h2 class="card-title">Mission Foods</h2>
+          <figure class="p-4">
+            <img src="images/MissionLogo.jpg" class="rounded-lg shadow-lg">
+            <br>
+            <p class="font-semibold text-accent-focus">
+              Since 1977, Mission Foods has been creating fresh and authentic Mexican food products. From tortillas,
+              chips, and many
+              other Mexican favorites.</p>
+          </figure>
+        </div>
+      </div>
+      <div class="shadow-lg card">
+        <div class="card-body">
+          <h2 class="card-title">Calypso Lemonades</h2>
+          <figure class="p-4">
+            <img src="images/CalypsoLogo.jpg" class="rounded-lg shadow-lg">
+            <br>
+            <p class="font-semibold text-accent-focus">
+              Calypso, the originator of the flavored lemonade category, has evolved from four lemonade blends into over
+              a dozen
+              lemonade, limeade, and light combinations over the past twenty-plus years.</p>
+          </figure>
+        </div>
+      </div>
+      <div class="shadow-lg card">
+        <div class="card-body">
+          <h2 class="card-title">IBC Root Beer</h2>
+          <figure class="p-4">
+            <img src="images/IBCLogo.jpg" class="rounded-lg shadow-lg">
+            <br>
+            <p class="font-semibold text-accent-focus">
+              Since 1919, IBC has provided great-tasting sodas with the unique heritage of good old-fashioned fun. IBC
+              quickly became
+              renowned for its premium quality.</p>
+          </figure>
+        </div>
+      </div>
+      <div class="shadow-lg card">
+        <div class="card-body">
+          <h2 class="card-title">Sara Lee Frozen Bakery</h2>
+          <figure class="p-4">
+            <img src="images/SaraLeeLogo.jpg" class="rounded-lg shadow-lg">
+            <br>
+            <p class="font-semibold text-accent-focus">
+              We manufacture and supply wholesale frozen baked goods and desserts for foodservice establishments and
+              restaurants,
+              grocery stores and in-store bakeries.</p>
+          </figure>
+        </div>
+      </div>
+      <div class="shadow-lg card">
+        <div class="card-body">
+          <h2 class="card-title">Real Lemon</h2>
+          <figure class="p-4">
+            <img src="images/RealLemonLogo.JPG" class="rounded-lg shadow-lg">
+            <br>
+            <p class="font-semibold text-accent-focus">
+              ReaLemon is made with the juices of high quality lemons and... concentrated to a uniform strength.
+              Then, enough filtered water is added………..</p>
+          </figure>
+        </div>
+      </div>
+      <div class="shadow-lg card">
+        <div class="card-body">
+          <h2 class="card-title">Real Lime</h2>
+          <figure class="p-4">
+            <img src="images/RealLimeLogo.JPG" class="rounded-lg shadow-lg">
+            <br>
+            <p class="font-semibold text-accent-focus">
+              ReaLime is made with the juices of high quality limes and... concentrated to a uniform strength.
+              Then, enough filtered water is added………..</p>
+          </figure>
+        </div>
+      </div>
+      <div class="shadow-lg card">
+        <div class="card-body">
+          <h2 class="card-title">Otis Spunkmeyer</h2>
+          <figure class="p-4">
+            <img src="images/OtisLogo.JPG" class="rounded-lg shadow-lg">
+            <br>
+            <p class="font-semibold text-accent-focus">
+              Cookies!!! From chocolate chunk to our oatmeal raisin, our cookies are loaded with quality ingredients
+              like dark Swiss
+              chocolate chunks, molasses and raisins and none of the funky stuff.</p>
+          </figure>
+        </div>
+      </div>
+      <div class="shadow-lg card">
+        <div class="card-body">
+          <h2 class="card-title">Domaine Didon Olive Oil Sprays</h2>
+          <figure class="p-4">
+            <img src="images/DomaineLogo.jpg" class="rounded-lg shadow-lg">
+            <br>
+            <p class="font-semibold text-accent-focus">
+              Organic Tunisian Olive Oils in convenient spray bottles with six natural flavors.</p>
+          </figure>
+        </div>
+      </div>
+      <div class="shadow-lg card">
+        <div class="card-body">
+          <h2 class="card-title">Tehdia Stevia Tea</h2>
+          <figure class="p-4">
+            <img src="images/TehdiaLogo.JPG" class="rounded-lg shadow-lg">
+            <br>
+            <p class="font-semibold text-accent-focus">
+              Prepackaged sachets containing only Indonesian Black tea and Stevia leaves. Just add direct to hot water
+              and enjoy!!!</p>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--NEW MODALS FINISH HERE-->
+  <div id="modal2" class="h-full modal md:min-w-full sm:flex-row-reverse">
+    <div
+      class="fixed top-0 left-0 items-center justify-center h-full glass modal-box sm:min-w-full lg:flex-row-reverse">
+
+      <h1 class="mb-5 text-5xl font-bold">
+        Fixermaster
+      </h1>
+      <p class="mb-5 text-xs text-justify text-accent-focus md:text-lg">
+        Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to
+        corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the
+        holistic world view of disruptive innovation via workplace diversity and empowerment.<br><br> Bring to the table
+        win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal
+        that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated
+        content in real-time will have multiple touchpoints for offshoring.<br><br> Capitalize on low hanging fruit to
+        identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs
+        from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on
+        the bottom line.<br><br>Podcasting operational change management inside of workflows to establish a framework.
+        Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while
+        performing a deep dive on the start-up mentality to derive convergence on cross-platform
+        integration.<br><br>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically
+        procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence
+        without revolutionary ROI.<br><br>Efficiently unleash cross-media information without cross-media value. Quickly
+        maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without
+        functional solutions.
+      </p>
+      <div class="modal-action">
+        <a href="#slide2" class="btn">Back</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal3" class="h-full modal md:min-w-full sm:flex-row-reverse">
+    <div
+      class="fixed top-0 left-0 items-center justify-center h-full glass modal-box sm:min-w-full lg:flex-row-reverse">
+
+      <h1 class="mb-5 text-5xl font-bold">
+        Peachtree Sweets
+      </h1>
+      <p class="mb-5 text-xs text-justify text-accent-focus md:text-lg">
+        Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to
+        corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the
+        holistic world view of disruptive innovation via workplace diversity and empowerment.<br><br> Bring to the table
+        win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal
+        that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated
+        content in real-time will have multiple touchpoints for offshoring.<br><br> Capitalize on low hanging fruit to
+        identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs
+        from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on
+        the bottom line.<br><br>Podcasting operational change management inside of workflows to establish a framework.
+        Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while
+        performing a deep dive on the start-up mentality to derive convergence on cross-platform
+        integration.<br><br>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically
+        procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence
+        without revolutionary ROI.<br><br>Efficiently unleash cross-media information without cross-media value. Quickly
+        maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without
+        functional solutions.
+      </p>
+      <div class="modal-action">
+        <a href="#slide3" class="btn">Back</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal4" class="h-full modal md:min-w-full sm:flex-row-reverse">
+    <div
+      class="fixed top-0 left-0 items-center justify-center h-full glass modal-box sm:min-w-full lg:flex-row-reverse">
+
+      <h1 class="mb-5 text-5xl font-bold">
+        Door Drop Shop
+      </h1>
+      <p class="mb-5 text-xs text-justify text-accent-focus md:text-lg">
+        Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to
+        corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the
+        holistic world view of disruptive innovation via workplace diversity and empowerment.<br><br> Bring to the table
+        win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal
+        that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated
+        content in real-time will have multiple touchpoints for offshoring.<br><br> Capitalize on low hanging fruit to
+        identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs
+        from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on
+        the bottom line.<br><br>Podcasting operational change management inside of workflows to establish a framework.
+        Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while
+        performing a deep dive on the start-up mentality to derive convergence on cross-platform
+        integration.<br><br>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically
+        procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence
+        without revolutionary ROI.<br><br>Efficiently unleash cross-media information without cross-media value. Quickly
+        maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without
+        functional solutions.
+      </p>
+      <div class="modal-action">
+        <a href="#slide4" class="btn">Back</a>
+      </div>
+    </div>
+  </div>
+  <!--Modals FINISH here-->
+
+
+  <!--carousel starts here-->
+
+  <div class="w-full pt-20 carousel">
+    <div id="slide1" class="relative w-full pt-20 carousel-item">
+      <div class="min-h-screen hero bg-secondary-content">
+        <div class="flex-col hero-content lg:flex-row-reverse">
+          <img src="images/BGO.jpg" class="max-w-sm rounded-lg shadow-2xl">
+          <div>
+            <h1 class="mb-5 text-5xl font-bold">
+              Bozeman Global
+            </h1>
+            <p class="mb-5 text-xs text-justify md:text-lg">
+              Bozeman Global Ltd was incorporated in 2015 with its headquarters in Atlanta, Georgia USA, also having
+              global footprints in Dubai, Indonesia, and Morocco as a globally established independent and fully
+              integrated international trading company, operating in the following sectors Real Estate , Defense,
+              Importers & Exporters of Food and Beverage, Logistics and General Trade. <br><br> Our group of companies
+              provides an extensive range of different products and services to our customers which includes wholesale
+              food and beverage products, tactical items; from our own branded firearms, ammunition-accessories,
+              catering/bakery services, construction, home renovation/maintenance, logistics/shipping & IT services,
+              furniture, biodegradable bags plus other consumer goods. <br><br> Due to the teams extensive knowledge of
+              the USA, East Asia and MENA(Middle East & North Africa) we have us established long term partnerships and
+              agreements with renowned international manufacturers, companies and a wide array of brands. In addition
+              there are different affiliations and memberships in place with the USA government, for example “GSM-102
+              member” which offer excellent financing assistance for our international clients...
+            </p>
+            <a href="#modal1"
+              class="btn btn-primary border-primary-content text-neutral-content bg-accent-focus hover:text-accent-focus hover:bg-neutral-content">Learn
+              More</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slideD" class="btn btn-circle">❮</a>
+        <a href="#slideA" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+    <!--THE NEW SLIDES START HERE-->
+    <div id="slideA" class="relative w-full pt-20 carousel-item">
+      <div class="min-h-screen hero bg-secondary-content">
+        <div class="flex-col hero-content lg:flex-row-reverse">
+          <img src="images/defense.jpg" class="max-w-sm rounded-lg shadow-2xl">
+          <div>
+            <h1 class="mb-5 text-5xl font-bold">
+              Defense
+            </h1>
+            <p class="mb-5 text-xs text-justify md:text-lg">
+              When it comes to your defense request, Bozeman Global Ltd Co imports a range of defense items from
+              shotguns,rifles,pistols,ammunition, ballistic vests to many other firearm accessories and gear. Our goal
+              is to bring the some of the best protection items available at a competitive price point, whether it be
+              wholesale or an individual request we've got you covered and you can rest assured with our guarantee and
+              warranty program. <br><br> Additionally we offer many of your favorite USA branded firearms and stay
+              ahead
+              of the curve by being one of the first to offer newly released or hard to acquire products. Also we are
+              a
+              licensed FFL holder and offer transfer services with a quick turn around for most gun sale transactions
+              or
+              can import the guns or ammunition of your choice.<br><br> Let us take care of your firearms
+              sales,paperwork and importing needs as we have close relationships with many
+              international manufactures located in Turkey, Bosnia, Italy, Russia and the UAE. Drop us an e-mail to
+              inquire further....
+            </p>
+            <a href="#modalA"
+              class="btn btn-primary border-primary-content text-neutral-content bg-accent-focus hover:text-accent-focus hover:bg-neutral-content">Our
+              Suppliers</a>
+            <a href="#Cmodal1"
+              class="btn btn-primary border-primary-content text-neutral-content bg-accent-focus hover:text-accent-focus hover:bg-neutral-content">Inquire
+              Here</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide1" class="btn btn-circle">❮</a>
+        <a href="#slideB" class="btn btn-circle">❯</a>
+      </div>
+      <div id="Cmodal1" class="flex items-center px-4 py-10 card shadow-2xl glass modal">
+        <div class="absolute items-center justify-center rounded-lg shadow-2xl glass modal-box">
+          <!-- component -->
+          <div class="flex items-center overflow-hidden bg-accent-focus">
+            <div class="container mx-auto">
+              <div class="mx-auto -my-4 overflow-hidden rounded-lg shadow-sm glass">
+                <div class="pt-4 text-center">
+                  <h1 class="text-3xl font-semibold text-base-content dark:text-gray-200">Can We Tell You More?</h1>
+                  <p class="font-semibold text-gray-400 dark:text-gray-400">Fill out the form below to send us a
+                    message.</p>
+                </div>
+                <div class="m-7">
+                  <form action="https://api.web3forms.com/submit" method="POST" id="form">
+
+                    <input type="hidden" name="apikey" value="89d74cd3-8ff3-4306-817d-8a8d6f7c4cab">
+                    <input type="hidden" name="subject" value="New Submission from Web3Forms">
+                    <input type="checkbox" name="botcheck" id="" style="display: none;">
+
+
+                    <div class="mb-6">
+                      <label for="name" class="block mb-2 text-sm text-base-content dark:text-gray-400">Full
+                        Name</label>
+                      <input type="text" name="name" id="name" placeholder="John Doe" required
+                        class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                    </div>
+                    <div class="mb-6">
+                      <label for="email" class="block mb-2 text-sm text-base-content dark:text-gray-400">Email
+                        Address</label>
+                      <input type="email" name="email" id="email" placeholder="you@company.com" required
+                        class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                    </div>
+                    <div class="mb-6">
+
+                      <label for="phone" class="text-sm text-base-content dark:text-gray-400">Phone Number</label>
+                      <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required
+                        class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                    </div>
+                    <div class="mb-6">
+                      <label for="message" class="block mb-2 text-sm text-base-content dark:text-gray-400">Your
+                        Query!</label>
+
+                      <textarea rows="5" name="message" id="message" placeholder="Your Message"
+                        class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500"
+                        required></textarea>
+                    </div>
+                    <div class="mb-6">
+                      <button type="submit"
+                        class="w-1/2 px-3 py-3 rounded-md text-base-content bg-primary-content hover:bg-base-content hover:text-primary-content focus:outline-none">Send
+                        Message</button>
+                      <div class="flex justify-end ml-6 -mt-12">
+                        <a href="#slideA"
+                          class="w-1/2 py-3 pl-10 rounded-md text-base-content bg-primary-content hover:bg-base-content hover:text-primary-content focus:outline-none">Back
+                          Home</a>
                       </div>
                     </div>
+
+                    <p class="text-base text-center text-gray-400" id="result">
+                    </p>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <script>
+            const form = document.getElementById('form');
+            const result = document.getElementById('result');
+
+            form.addEventListener('submit', function (e) {
+              const formData = new FormData(form);
+              e.preventDefault();
+              var object = {};
+              formData.forEach((value, key) => {
+                object[key] = value
+              });
+              var json = JSON.stringify(object);
+              result.innerHTML = "Please wait..."
+
+              fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json',
+                  'Accept': 'application/json'
+                },
+                body: json
+              })
+                .then(async (response) => {
+                  let json = await response.json();
+                  if (response.status == 200) {
+                    result.innerHTML = json.message;
+                    result.classList.remove('text-gray-500');
+                    result.classList.add('text-green-500');
+                  } else {
+                    console.log(response);
+                    result.innerHTML = json.message;
+                    result.classList.remove('text-gray-500');
+                    result.classList.add('text-red-500');
+                  }
+                })
+                .catch(error => {
+                  console.log(error);
+                  result.innerHTML = "Something went wrong!";
+                })
+                .then(function () {
+                  form.reset();
+                  setTimeout(() => {
+                    result.style.display = "none";
+                  }, 5000);
+                });
+            })
+          </script>
+        </div>
+      </div>
+    </div>
+    <div id="slideB" class="relative w-full pt-20 carousel-item">
+      <div class="min-h-screen hero bg-secondary-content">
+        <div class="flex-col hero-content lg:flex-row-reverse">
+          <img src="images/fbtallestph.jpg" class="max-w-sm rounded-lg shadow-2xl">
+          <div>
+            <h1 class="mb-5 text-5xl font-bold">
+              Food & Beverage
+            </h1>
+            <p class="mb-5 text-xs text-justify md:text-lg">
+              As the saying goes “as long as there is an earth, man will need to eat and drink”. Here at Bozeman Global
+              Ltd Co we strive to be your preferred food services partner offering value for money on the best quality
+              products at competitive prices. <br><br> Bozeman Global Ltd Co has a dedicated department that specializes
+              in importing, marketing and distributing consumer goods in the food sector. Our main office is located in
+              the USA, which has positioned us to have many agreements in place from major and minor manufactures for
+              being exclusive agents or authorized distributors. From our warehouse we we are logistically positioned
+              to export American brands abroad and import international brands to the USA from many parts of the world,
+              as we
+              have many global suppliers. From Moroccan Fruits and Vegetables, Tunisian Olive Oil, Indonesian Stevia
+              Tea bags and Java coffee beans to a wide array of food and beverage items from Turkey, we provide it
+              all.<br><br> Being an American
+              company allows us to offer excellent financial payment plans through the US government program, GSM-102
+              which is based on bank to bank LC transactions with delayed payment requirements. Contact us to find out
+              more if you are interested in this program.<br><br>In addition to the above, and to further develop our
+              marketing and distribution capability, we are strategically linked
+              with manufactures who cater to all niches of the F&B market for your unique and private labeling requests.
+            </p>
+            <a href="#modalB"
+              class="btn btn-primary border-primary-content text-neutral-content bg-accent-focus hover:text-accent-focus hover:bg-neutral-content">Our
+              Suppliers</a>
+            <a href="#Cmodal2"
+              class="btn btn-primary border-primary-content text-neutral-content bg-accent-focus hover:text-accent-focus hover:bg-neutral-content">Inquire
+              Here</a>
+
+          </div>
+        </div>
+        <div id="Cmodal2" class="flex items-center px-4 py-10 card shadow-2xl glass modal">
+          <div class="absolute items-center justify-center rounded-lg shadow-2xl glass modal-box">
+            <!-- component -->
+            <div class="flex items-center overflow-hidden bg-accent-focus">
+              <div class="container mx-auto">
+                <div class="mx-auto overflow-hidden shadow-sm glass">
+                  <div class="pt-4 text-center">
+                    <h1 class="text-3xl font-semibold text-base-content dark:text-gray-200">Want To Know More?</h1>
+                    <p class="font-semibold text-gray-400 dark:text-gray-400">Fill out the form below to send us a
+                      message.</p>
                   </div>
-                  
-            </div> 
-            <div id="item2" class="w-full pt-20 snap-inline carousel-item">
-                <div class="min-h-screen hero bg-secondary-content">
-                    <div class="flex-col hero-content lg:flex-row-reverse">
-                      <img src="images/BGO.jpg" class="max-w-sm rounded-lg shadow-2xl"> 
-                      <div>
-                        <h1 id="boz" class="mb-5 text-5xl font-bold">
-                              Bozeman Global
-                            </h1>
-                        <p class="mb-5 text-xs text-justify md:text-lg">
-                          Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.<br> Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.<br> Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
-                            </p> 
-                        <a href="#modal2" class="btn btn-primary border-primary-content text-neutral-content bg-accent-focus hover:text-accent-focus hover:bg-neutral-content">Get Started</a> 
-                    <div id="modal2" class="modal">
-                      <div class="fixed top-0 left-0 flex-col items-center justify-center w-full h-full glass modal-box">
-                        
-                            <h1 class="mb-5 text-5xl font-bold">
-                                  Bozeman Global
-                                </h1> 
-                            <p class="mb-5 text-xs text-justify text-accent-focus md:text-lg">
-                              Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.<br><br> Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.<br><br> Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.<br><br>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.<br><br>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.<br><br>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.
-                                </p>
-                        <div class="modal-action">
-                        <a href="#item2" class="btn">Back</a>
+                  <div class="m-7">
+                    <form action="https://api.web3forms.com/submit" method="POST" id="form">
+
+                      <input type="hidden" name="apikey" value="89d74cd3-8ff3-4306-817d-8a8d6f7c4cab">
+                      <input type="hidden" name="subject" value="New Submission from Web3Forms">
+                      <input type="checkbox" name="botcheck" id="" style="display: none;">
+
+
+                      <div class="mb-6">
+                        <label for="name" class="block mb-2 text-sm text-base-content dark:text-gray-400">Full
+                          Name</label>
+                        <input type="text" name="name" id="name" placeholder="John Doe" required
+                          class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                      </div>
+                      <div class="mb-6">
+                        <label for="email" class="block mb-2 text-sm text-base-content dark:text-gray-400">Email
+                          Address</label>
+                        <input type="email" name="email" id="email" placeholder="you@company.com" required
+                          class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                      </div>
+                      <div class="mb-6">
+
+                        <label for="phone" class="text-sm text-base-content dark:text-gray-400">Phone Number</label>
+                        <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required
+                          class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                      </div>
+                      <div class="mb-6">
+                        <label for="message" class="block mb-2 text-sm text-base-content dark:text-gray-400">Your
+                          Query!</label>
+
+                        <textarea rows="5" name="message" id="message" placeholder="Your Message"
+                          class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500"
+                          required></textarea>
+                      </div>
+                      <div class="mb-6">
+                        <button type="submit"
+                          class="w-1/2 px-3 py-3 rounded-md text-base-content bg-primary-content hover:bg-base-content hover:text-primary-content focus:outline-none">Send
+                          Message</button>
+                        <div class="flex justify-end ml-6 -mt-12">
+                          <a href="#slideB"
+                            class="w-1/2 py-3 pl-10 rounded-md text-base-content bg-primary-content hover:bg-base-content hover:text-primary-content focus:outline-none">Back
+                            Home</a>
                         </div>
                       </div>
-                    </div>
-                      </div>
-                    </div>
+
+                      <p class="text-base text-center text-gray-400" id="result">
+                      </p>
+                    </form>
                   </div>
-                  
-            </div> 
-            <div id="item3" class="w-full pt-20 carousel-item">
-                <div class="min-h-screen hero bg-secondary-content">
-                    <div class="flex-col hero-content lg:flex-row-reverse">
-                      <img src="images/PTS.jpg" class="max-w-sm rounded-lg shadow-2xl"> 
-                      <div>
-                        <h1 class="mb-5 text-5xl font-bold">
-                              Peachtree Sweets
-                            </h1> 
-                        <p class="mb-5 text-xs text-justify md:text-lg">
-                          Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.<br> Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.<br> Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
-                            </p> 
-                        <button class="btn btn-primary border-primary-content text-neutral-content bg-accent-focus hover:text-accent-focus hover:bg-neutral-content">Get Started</button>
-                      </div>
-                    </div>
-                  </div>
-                  
-            </div> 
-            <div id="item4" class="w-full pt-20 carousel-item">
-                <div class="min-h-screen hero bg-secondary-content">
-                    <div class="flex-col hero-content lg:flex-row-reverse">
-                      <img src="images/DDSUSA.jpg" class="max-w-sm rounded-lg shadow-2xl"> 
-                      <div>
-                        <h1 class="mb-5 text-5xl font-bold">
-                              Door Drop Shop
-                            </h1> 
-                        <p class="mb-5 text-xs text-justify md:text-lg">
-                          Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.<br> Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.<br> Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
-                            </p> 
-                        <button class="btn btn-primary border-primary-content text-neutral-content bg-accent-focus hover:text-accent-focus hover:bg-neutral-content">Get Started</button>
-                      </div>
-                    </div>
-                  </div>
-                  
+                </div>
+              </div>
             </div>
-          </div> 
-          <div class="flex justify-center w-full py-4 space-x-2">
-            <a href="#item1" class="btn btn-xs btn-circle">1</a> 
-            <a href="#item2" class="btn btn-xs btn-circle">2</a> 
-            <a href="#item3" class="btn btn-xs btn-circle">3</a>
-            <a href="#item4" class="btn btn-xs btn-circle">4</a>
+
+            <script>
+              const form = document.getElementById('form');
+              const result = document.getElementById('result');
+
+              form.addEventListener('submit', function (e) {
+                const formData = new FormData(form);
+                e.preventDefault();
+                var object = {};
+                formData.forEach((value, key) => {
+                  object[key] = value
+                });
+                var json = JSON.stringify(object);
+                result.innerHTML = "Please wait..."
+
+                fetch('https://api.web3forms.com/submit', {
+                  method: 'POST',
+                  headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                  },
+                  body: json
+                })
+                  .then(async (response) => {
+                    let json = await response.json();
+                    if (response.status == 200) {
+                      result.innerHTML = json.message;
+                      result.classList.remove('text-gray-500');
+                      result.classList.add('text-green-500');
+                    } else {
+                      console.log(response);
+                      result.innerHTML = json.message;
+                      result.classList.remove('text-gray-500');
+                      result.classList.add('text-red-500');
+                    }
+                  })
+                  .catch(error => {
+                    console.log(error);
+                    result.innerHTML = "Something went wrong!";
+                  })
+                  .then(function () {
+                    form.reset();
+                    setTimeout(() => {
+                      result.style.display = "none";
+                    }, 5000);
+                  });
+              })
+            </script>
           </div>
+        </div>
+      </div>
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slideA" class="btn btn-circle">❮</a>
+        <a href="#slideC" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+    <div id="slideC" class="relative w-full pt-20 carousel-item">
+      <div class="min-h-screen hero bg-secondary-content">
+        <div class="flex-col hero-content lg:flex-row-reverse">
+          <img src="images/gtph.jpg" class="max-w-sm rounded-lg shadow-2xl">
+          <div>
+            <h1 class="mb-5 text-5xl font-bold">
+              General Trade
+            </h1>
+            <p class="mb-5 text-xs text-justify md:text-lg">
+              Our general trading department focus is sourcing the right product in a timely manner for our multi
+              national clients
+              throughout the world. We specialize in 100% compost biodegradable products e.g. bags, straws, hospital
+              sheets, toilet
+              seat covers from Indonesia, clothing from East Asia, leather from Morocco, bedding-linens from Turkey and
+              many products
+              in the USA like storage lockers, LED lights, school furniture, office furniture just to highlight a few.
+              <br><br> Bozeman Global Ltd Co is always committed to listening, caring and to upholding our long standing
+              tradition of exceeding our
+              customers' expectations. We like to believe that we do things differently. We treat our customers
+              differently, as
+              individuals, catering to their individual needs while striving to contain costs.<br><br> To us, customer
+              focus covers everything from product quality to prompt delivery, after-sales service, professional
+              expertise and advice.
+            </p>
+            <a href="#Cmodal3"
+              class="btn btn-primary border-primary-content text-neutral-content bg-accent-focus hover:text-accent-focus hover:bg-neutral-content">Inquire
+              Here</a>
+
+          </div>
+        </div>
+        <div id="Cmodal3" class="flex items-center px-4 py-10 card shadow-2xl glass modal">
+          <div class="absolute items-center justify-center rounded-lg shadow-2xl glass modal-box">
+            <!-- component -->
+            <div class="flex items-center overflow-hidden bg-accent-focus">
+              <div class="container mx-auto">
+                <div class="mx-auto -my-4 overflow-hidden rounded-lg shadow-sm glass">
+                  <div class="pt-4 text-center">
+                    <h1 class="text-3xl font-semibold text-base-content dark:text-gray-200">Inquiring About General
+                      Trade?</h1>
+                    <p class="font-semibold text-gray-400 dark:text-gray-400">Fill out the form below to send us a
+                      message.</p>
+                  </div>
+                  <div class="m-7">
+                    <form action="https://api.web3forms.com/submit" method="POST" id="form">
+
+                      <input type="hidden" name="apikey" value="89d74cd3-8ff3-4306-817d-8a8d6f7c4cab">
+                      <input type="hidden" name="subject" value="New Submission from Web3Forms">
+                      <input type="checkbox" name="botcheck" id="" style="display: none;">
+
+
+                      <div class="mb-6">
+                        <label for="name" class="block mb-2 text-sm text-base-content dark:text-gray-400">Full
+                          Name</label>
+                        <input type="text" name="name" id="name" placeholder="John Doe" required
+                          class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                      </div>
+                      <div class="mb-6">
+                        <label for="email" class="block mb-2 text-sm text-base-content dark:text-gray-400">Email
+                          Address</label>
+                        <input type="email" name="email" id="email" placeholder="you@company.com" required
+                          class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                      </div>
+                      <div class="mb-6">
+
+                        <label for="phone" class="text-sm text-base-content dark:text-gray-400">Phone Number</label>
+                        <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required
+                          class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                      </div>
+                      <div class="mb-6">
+                        <label for="message" class="block mb-2 text-sm text-base-content dark:text-gray-400">Your
+                          Query!</label>
+
+                        <textarea rows="5" name="message" id="message" placeholder="Your Message"
+                          class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500"
+                          required></textarea>
+                      </div>
+                      <div class="mb-6">
+                        <button type="submit"
+                          class="w-1/2 px-3 py-3 rounded-md text-base-content bg-primary-content hover:bg-base-content hover:text-primary-content focus:outline-none">Send
+                          Message</button>
+                        <div class="flex justify-end ml-6 -mt-12">
+                          <a href="#slideC"
+                            class="w-1/2 py-3 pl-10 rounded-md text-base-content bg-primary-content hover:bg-base-content hover:text-primary-content focus:outline-none">Back
+                            Home</a>
+                        </div>
+                      </div>
+
+                      <p class="text-base text-center text-gray-400" id="result">
+                      </p>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <script>
+              const form = document.getElementById('form');
+              const result = document.getElementById('result');
+
+              form.addEventListener('submit', function (e) {
+                const formData = new FormData(form);
+                e.preventDefault();
+                var object = {};
+                formData.forEach((value, key) => {
+                  object[key] = value
+                });
+                var json = JSON.stringify(object);
+                result.innerHTML = "Please wait..."
+
+                fetch('https://api.web3forms.com/submit', {
+                  method: 'POST',
+                  headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                  },
+                  body: json
+                })
+                  .then(async (response) => {
+                    let json = await response.json();
+                    if (response.status == 200) {
+                      result.innerHTML = json.message;
+                      result.classList.remove('text-gray-500');
+                      result.classList.add('text-green-500');
+                    } else {
+                      console.log(response);
+                      result.innerHTML = json.message;
+                      result.classList.remove('text-gray-500');
+                      result.classList.add('text-red-500');
+                    }
+                  })
+                  .catch(error => {
+                    console.log(error);
+                    result.innerHTML = "Something went wrong!";
+                  })
+                  .then(function () {
+                    form.reset();
+                    setTimeout(() => {
+                      result.style.display = "none";
+                    }, 5000);
+                  });
+              })
+            </script>
+          </div>
+        </div>
+      </div>
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slideB" class="btn btn-circle">❮</a>
+        <a href="#slideD" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+    <div id="slideD" class="relative w-full pt-20 carousel-item">
+      <div class="min-h-screen hero bg-secondary-content">
+        <div class="flex-col hero-content lg:flex-row-reverse">
+          <img src="images/TFC3ph.jpg" class="max-w-sm rounded-lg shadow-2xl">
+          <div>
+            <h1 class="mb-5 text-5xl font-bold">
+              Web Design & Development:<br>The Futurist Consortium
+            </h1>
+            <p class="mb-5 text-xs text-justify md:text-lg">
+              The Futurist Consortium is a group of digital masterminds with over 25 years of experience.
+              We are a powerful team of individuals that go above and beyond to develop custom tailored solutions to
+              your problems. We listen, conceptualize, present and refine...
+              until you are satisfied with the result.<br><br> We are not modern.<br><br>We create futureproof designs,
+              with our finger on the pulse of cutting edge techniques. The Futurist Consortium moves seamlessly
+              through time with a focus on creativity by design.
+            </p>
+            <a href="http://thefuturistortium.com"
+              class="btn btn-primary border-primary-content text-neutral-content bg-accent-focus hover:text-accent-focus hover:bg-neutral-content">Visit
+              TFC</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slideC" class="btn btn-circle">❮</a>
+        <a href="#slide1" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+    <!--THE NEW SLIDES FINISH HERE-->
+
+  </div>
+  <!--carousel FINISHES here-->
+
+  <!--cards start here-->
+
+  <div class="grid gap-10 mt-8 lg:grid-cols-3">
+
+    <!--cards go here-->
+    <div id="card1" class="flex items-center w-full px-4 py-10 bg-cover card bg-base-200"
+      style="background-image: url(&quot;https://cdn.pixabay.com/photo/2016/11/29/10/09/bakery-1868925_960_720.jpg&quot;) ">
+      <div class="relative card glass">
+        <figure class="p-6">
+          <img src="images/ptsph.jpg" class="rounded-lg shadow-lg">
+        </figure>
+        <div class="flex max-w-md max-h-full lg:justify-start card-body">
+          <h2 class="text-xl text-secondary-content card-title">Peachtree Sweet's</h2>
+          <p class="flex-1 text-secondary-content"><span class="text-xs underline text-semibold">Dessert Catering/Bakery
+              Services</span><br>
+            “Whether you are looking for traditional Southern USA desserts for your home, office or French pastries for
+            that next big event , your esteemed hotel, restaurant or cafe we are ready and more than capable. Leave the
+            baking to us..”</p>
+          <div class="flex items-center card-actions">
+            <a href="#Rmodal1" class="rounded-full btn lg:justify glass text-secondary-content">Shop Now!</a>
+          </div>
+        </div>
+        <div id="Rmodal1" class="flex items-center px-4 py-10 card glass modal">
+          <div class="absolute items-center justify-center h-full rounded-lg glass modal-box">
+
+            <h1 class="mb-5 text-5xl font-bold">
+              Redirecting<span class="animate-pulse">...</span>
+            </h1>
+            <p class="pl-2 mb-12 text-xs large-text-justify text-accent-focus md:text-lg">
+              You are about to be redirected to the Peachtree Sweets website.
+            <div class="modal-action">
+              <a href="https://www.peachtreesweetsusa.com" class="mt-24 btn">Yes, take me there!</a>
+              <a href="#card1" class="mt-24 btn">No, I'd like to stay!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="card2" class="flex items-center w-full px-4 py-10 bg-cover h-500 card bg-base-200"
+      style="background-image: url(images/kitbg.jpg);">
+      <div class="relative card glass">
+        <figure class="p-6">
+          <img src="images/brph.jpg" class="rounded-lg shadow-lg">
+        </figure>
+        <div class="max-w-md max-h-full card-body">
+          <h2 class="text-xl card-title text-secondary-content">Fixermaster</h2>
+          <p class="flex-1 text-secondary-content"><span class="text-xs underline text-semibold">Construction and Home
+              Renovation/Maintenace Services</span><br>
+            “Being a true “Fixer Master” means understanding the ins and outs of any home’s needs. From the flooring to
+            the lighting, a real master can handle it all. It is with this understanding that we offer the following
+            services to allow you to master your home.”.</p>
+          <div class="card-actions">
+            <a href="#Rmodal2" class="rounded-full btn glass text-secondary-content">Get A Quote</a>
+
+          </div>
+        </div>
+        <div id="Rmodal2" class="flex items-center px-4 py-10 card glass modal">
+          <div class="absolute items-center justify-center h-full rounded-lg glass modal-box">
+
+            <h1 class="mb-5 text-5xl font-bold">
+              Redirecting<span class="animate-pulse">...</span>
+            </h1>
+            <p class="pl-2 mb-12 text-xs large-text-justify text-accent-focus md:text-lg">
+              You are about to be redirected to the Fixermaster website.
+            <div class="modal-action">
+              <a href="https://www.fixermaster.com" class="mt-24 btn">Yes, take me there!</a>
+              <a href="#card2" class="mt-24 btn">No, I'd like to stay!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="card3" class="flex items-center w-full px-4 py-10 bg-cover card bg-base-200"
+      style="background-image: url(images/nylogbg.jpg);">
+      <div class="relative card glass">
+        <figure class="p-6">
+          <img src="images/whph.jpg" class="rounded-lg shadow-lg">
+        </figure>
+        <div class="max-w-md max-h-full card-body">
+          <h2 class="text-xl card-title text-secondary-content">DDS USA</h2>
+          <p class="flex-1 text-secondary-content"><span class="text-xs underline text-semibold">Logistics International
+              Shopping/Shipping Services</span><br>
+            “Shop your favorite USA outlets, boutiques and stores or have a package that you need shipped within 3 days
+            anywhere in the world. We got you covered for some of the best rates and professional service available.”
+            Rest assured as we have local representatives in most of your final destinations. </p>
+          <div class="card-actions">
+            <a href="#Rmodal3" class="rounded-full btn glass text-secondary-content">Ask About It!</a>
+          </div>
+        </div>
+        <div id="Rmodal3" class="flex items-center px-4 py-10 card glass modal">
+          <div class="absolute items-center justify-center h-full rounded-lg glass modal-box">
+            <!-- component -->
+            <div class="flex items-center overflow-hidden bg-accent-focus">
+              <div class="container mx-auto">
+                <div class="max-w-md mx-auto -my-4 overflow-hidden rounded-lg shadow-sm glass">
+                  <div class="pt-4 text-center">
+                    <h1 class="text-3xl font-semibold text-base-content dark:text-gray-200">Ask About It!</h1>
+                    <p class="font-semibold text-gray-400 dark:text-gray-400">Fill out the form below to send us a
+                      message.</p>
+                  </div>
+                  <div class="m-7">
+                    <form action="https://api.web3forms.com/submit" method="POST" id="form">
+
+                      <input type="hidden" name="apikey" value="89d74cd3-8ff3-4306-817d-8a8d6f7c4cab">
+                      <input type="hidden" name="subject" value="New Submission from Web3Forms">
+                      <input type="checkbox" name="botcheck" id="" style="display: none;">
+
+
+                      <div class="mb-6">
+                        <label for="name" class="block mb-2 text-sm text-base-content dark:text-gray-400">Full
+                          Name</label>
+                        <input type="text" name="name" id="name" placeholder="John Doe" required
+                          class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                      </div>
+                      <div class="mb-6">
+                        <label for="email" class="block mb-2 text-sm text-base-content dark:text-gray-400">Email
+                          Address</label>
+                        <input type="email" name="email" id="email" placeholder="you@company.com" required
+                          class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                      </div>
+                      <div class="mb-6">
+
+                        <label for="phone" class="text-sm text-base-content dark:text-gray-400">Phone Number</label>
+                        <input type="text" name="phone" id="phone" placeholder="+1 (555) 1234-567" required
+                          class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
+                      </div>
+                      <div class="mb-6">
+                        <label for="message" class="block mb-2 text-sm text-base-content dark:text-gray-400">Your
+                          Query!</label>
+
+                        <textarea rows="5" name="message" id="message" placeholder="Your Message"
+                          class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500"
+                          required></textarea>
+                      </div>
+                      <div class="mb-6">
+                        <button type="submit"
+                          class="w-1/2 px-3 py-3 rounded-md text-base-content bg-primary-content hover:bg-base-content hover:text-primary-content focus:outline-none">Send
+                          Message</button>
+                        <div class="flex justify-end ml-6 -mt-12">
+                          <a href="#card3"
+                            class="w-1/2 py-3 pl-10 rounded-md text-base-content bg-primary-content hover:bg-base-content hover:text-primary-content focus:outline-none">Back
+                            Home</a>
+                        </div>
+                      </div>
+
+                      <p class="text-base text-center text-gray-400" id="result">
+                      </p>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <script>
+              const form = document.getElementById('form');
+              const result = document.getElementById('result');
+
+              form.addEventListener('submit', function (e) {
+                const formData = new FormData(form);
+                e.preventDefault();
+                var object = {};
+                formData.forEach((value, key) => {
+                  object[key] = value
+                });
+                var json = JSON.stringify(object);
+                result.innerHTML = "Please wait..."
+
+                fetch('https://api.web3forms.com/submit', {
+                  method: 'POST',
+                  headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                  },
+                  body: json
+                })
+                  .then(async (response) => {
+                    let json = await response.json();
+                    if (response.status == 200) {
+                      result.innerHTML = json.message;
+                      result.classList.remove('text-gray-500');
+                      result.classList.add('text-green-500');
+                    } else {
+                      console.log(response);
+                      result.innerHTML = json.message;
+                      result.classList.remove('text-gray-500');
+                      result.classList.add('text-red-500');
+                    }
+                  })
+                  .catch(error => {
+                    console.log(error);
+                    result.innerHTML = "Something went wrong!";
+                  })
+                  .then(function () {
+                    form.reset();
+                    setTimeout(() => {
+                      result.style.display = "none";
+                    }, 5000);
+                  });
+              })
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  </div>
+  <!--cards FINISH here-->
+
+
+
+  <!--this is where the footer starts-->
+  <footer class="p-10 footer bg-base-500 text-base-200">
+    <div>
+      <svg class="w-16 h-24 mb-2 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 182.66 204.18">
+        <defs>
+          <style>
+            .cls-1,
+            .cls-2 {
+              fill: #231f20;
+            }
+
+            .cls-2 {
+              stroke: #231f20;
+              stroke-miterlimit: 10;
+            }
+          </style>
+        </defs>
+        <g id="Layer_2" data-name="Layer 2">
+          <g id="Layer_1-2" data-name="Layer 1">
+            <path class="cls-1"
+              d="M7.24,15q75,.27,149.92.18c9.65,0,9.66-15,0-15Q82.21.18,7.24,0c-9.65,0-9.66,15,0,15Z" />
+            <path class="cls-1" d="M65.66,196.68v-153c0-9.65-15-9.67-15,0v153c0,9.65,15,9.67,15,0Z" />
+            <path class="cls-1" d="M58.16,51.18H99.05c9.65,0,9.67-15,0-15H58.16c-9.66,0-9.67,15,0,15Z" />
+            <path class="cls-1" d="M149.66,7.68v72c0,9.65,15,9.67,15,0v-72c0-9.65-15-9.67-15,0Z" />
+            <path class="cls-1" d="M175.16,99.18h-81c-9.66,0-9.67,15,0,15h81c9.65,0,9.66-15,0-15Z" />
+            <rect class="cls-2" x="85.16" y="61.68" width="36" height="18" />
+            <rect class="cls-2" x="85.16" y="133.68" width="36" height="18" />
+            <path class="cls-1" d="M58.16,204.18h117c9.65,0,9.66-15,0-15h-117c-9.66,0-9.67,15,0,15Z" />
+            <path class="cls-1" d="M167.66,106.68v90c0,9.65,15,9.67,15,0v-90c0-9.65-15-9.67-15,0Z" />
+          </g>
+        </g>
+      </svg>
+      <p>Bozeman Global Ltd Co
+        <br>Family owned and operated since 2015
+      </p>
+    </div>
+    <div>
+      <span class="footer-title">Services</span>
+      <a href="#slideB" class="link link-hover">Food & Beverage</a>
+      <a href="#slideA" class="link link-hover">Defense</a>
+      <a href="#slideC" class="link link-hover">General Trade</a>
+      <a href="http://thefuturistortium.com" class="link link-hover">Web Development</a>
+    </div>
+    <div>
+      <span class="footer-title">Company</span>
+      <a href="#modal1" class="link link-hover">About us</a>
+      <a href="#modal1" class="link link-hover">Contact</a>
+      <a href="#Cmodal2" class="link link-hover">Jobs</a>
+      <a class="link link-hover">Press kit</a>
+    </div>
+    <div>
+      <span class="footer-title">Legal</span>
+      <a class="link link-hover">Terms of use</a>
+      <a class="link link-hover">Privacy policy</a>
+      <a class="link link-hover">Cookie policy</a>
+    </div>
+  </footer>
+
+
+
+
+
+
+  <!-- ... -->
+</body>
+
+</html>
